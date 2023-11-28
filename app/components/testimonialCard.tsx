@@ -75,7 +75,7 @@ const TestimonialSlider = () => {
               />
             </div>
             <div className="rounded-md shadow-xl bg-white p-6 w-[300px]  lg:max-w-[504px]">
-              <p className="leading-8">{testimonial.quote}</p>
+              <p className="leading-5">{testimonial.quote}</p>
               <p className="mt-8">{testimonial.author}</p>
               <p className="text-black">{testimonial.location}</p>
             </div>
