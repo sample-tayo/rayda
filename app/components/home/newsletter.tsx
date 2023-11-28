@@ -25,7 +25,7 @@ const NewsLetter = () => {
         className="absolute bottom-0 left-0 z-10 opacity-20"
       />
 
-      <div className="flex items-center w-full lg:flex-row flex-col mt-10 gap-4 space-x-4">
+      <div className="flex items-center justify-center w-full lg:flex-row flex-col mt-10 gap-4 space-x-4">
         <input
           type="email"
           placeholder="Your email"
