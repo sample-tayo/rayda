@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer className=" p-8 py-20 lg:px-32">
+    <footer className=" p-8 pt-20 pb-4 lg:px-32">
       <div className="container mx-auto grid  grid-cols-1 md:grid-cols-5 gap-8">
         {/* Column 1 */}
         <div className="col-span-1 flex flex-col items-center lg:items-start md:col-span-1">
@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
           <p className="mb-2 text-center">Discover our app</p>
 
-          <div className="flex flex-col text-white text-xs gap-4 justify-between w-full">
+          <div className="flex flex-row lg:flex-col text-white text-xs  gap-4 justify-center w-full">
             <Link
               href="/"
               className="flex items-center p-2 px-4 justify-center cursor-pointer  bg-black rounded-3xl gap-4"
@@ -101,7 +101,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-center mt-20">All rights reserved@mksstudios</p>
+      <p className="text-center mt-10 lg:mt-20">
+        All rights reserved@mksstudios
+      </p>
     </footer>
   );
 };

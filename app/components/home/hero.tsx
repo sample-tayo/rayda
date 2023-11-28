@@ -28,7 +28,7 @@ function Hero() {
           <button className="flex h-[60px] w-[170px] items-center gap-5">
             <div className="bg-success p-4 rounded-full">
               <Image
-                src="/assets/play.png"
+                src="/assets/icons/play.png"
                 alt="play demo"
                 width={15}
                 height={15}

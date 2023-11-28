@@ -13,7 +13,7 @@ const Steps = () => {
           <div className="flex items-start gap-4 text-accent3">
             <div className="p-4 max-h-12 bg-warnig rounded-lg">
               <Image
-                src="/assets/square-1.png"
+                src="/assets/icons/square-1.png"
                 alt="square"
                 width={22}
                 height={22}
@@ -31,7 +31,7 @@ const Steps = () => {
           <div className="flex items-start gap-4 text-accent3">
             <div className="p-4 max-h-12 bg-move rounded-lg">
               <Image
-                src="/assets/water-sport-1.png"
+                src="/assets/icons/water-sport-1.png"
                 alt="square"
                 width={22}
                 height={22}
@@ -49,7 +49,7 @@ const Steps = () => {
           <div className="flex items-start gap-4 text-accent3">
             <div className="p-4 max-h-12 bg-taxi rounded-lg">
               <Image
-                src="/assets/taxi-1.png"
+                src="/assets/icons/taxi-1.png"
                 alt="square"
                 width={22}
                 height={22}
