@@ -40,5 +40,25 @@
       "cost": "$15k",
       "duration": "28 Days Trip"
     }
+  ],
+  "testimonials": [
+    {
+      "quote": "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+      "author": "Mike Taylor",
+      "location": "Lahore, Pakistan",
+      "src": "/assets/avatar-1.jpg"
+    },
+    {
+      "quote": "Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+      "author": "Mike Taylor",
+      "location": "Lagos, Nigeria",
+      "src": "/assets/avatar-2.jpg"
+    },
+    {
+      "quote": "talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+      "author": "Mike Taylor",
+      "location": "Melbourne, Australia",
+      "src": "/assets/avatar-2.jpg"
+    }
   ]
 }

@@ -102,7 +102,7 @@ const Header = () => {
               }}
               className={`${
                 mobileNav ? "absolute" : "hidden"
-              } w-5 p-3 bottom-[6px] sm:bottom-[9px] right-[-2.99px] h-px border border-black block`}
+              } w-5 p-3 -bottom-[7px] sm:bottom-[9px] right-[-2.99px] h-px border border-black block`}
             ></motion.span>
           </motion.button>
         </div>

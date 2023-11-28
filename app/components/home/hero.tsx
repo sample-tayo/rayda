@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Hero() {
   return (
-    <main className="flex flex-col-reverse lg:flex-row items-center py-10 pb-20 px-4 bg-primary  lg:pl-32">
+    <main className="flex flex-col-reverse lg:flex-row items-center pt-16 lg:pt-10 pb-20 px-4 bg-primary  lg:pl-32">
       <section className="flex-1">
         <h3 className=" font-semibold lg:text-xl text-success uppercase">
           Best Destination Around the world
@@ -9,7 +9,7 @@ function Hero() {
 
         <h1 className="lg:text-[80px] text-4xl mt-2 lg:leading-[89px] text-accent2">
           Travel,
-          <span className="relative inline-block after:absolute after:content-[url('/assets/decore.png')] ml-6 after:top-5 after:-left-6 after:hidden after:lg:block">
+          <span className="relative inline-block after:absolute after:content-[url('/assets/decore.png')] ml-2 lg:ml-6 after:top-5 after:-left-6 after:hidden after:lg:block">
             enjoy
           </span>
           <span className=" inline-block">and live a new and full life</span>
@@ -39,7 +39,7 @@ function Hero() {
         </div>
       </section>
 
-      <section className="lg:flex-1 pt-8 relative">
+      <section className="lg:flex-1 lg:block hidden pt-8 relative">
         <Image
           src="/assets/banner.png"
           alt="Banner image"

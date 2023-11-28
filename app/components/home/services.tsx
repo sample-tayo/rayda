@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div className="py-8 relative px-4">
       <p className="text-center text-lg text-accent3">Category</p>
-      <h2 className="text-center mt-4 text-5xl text-darkText font-bold">
+      <h2 className="text-center mt-4 text-3xl lg:text-5xl text-darkText font-bold">
         We Offer Best Services
       </h2>
 

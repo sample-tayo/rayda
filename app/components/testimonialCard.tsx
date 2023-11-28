@@ -1,32 +1,10 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-
-const testimonials = [
-  {
-    quote:
-      "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
-    author: "Mike Taylor",
-    location: "Lahore, Pakistan",
-    src: "/assets/avatar-1.jpg",
-  },
-  {
-    quote:
-      "Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
-    author: "Mike Taylor",
-    location: "Lagos, Nigeria",
-    src: "/assets/avatar-2.jpg",
-  },
-  {
-    quote:
-      "talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
-    author: "Mike Taylor",
-    location: "Melbourne, Australia",
-    src: "/assets/avatar-3.jpg",
-  },
-];
+import data from "../data/data.json";
 
 const TestimonialSlider = () => {
+  const testimonials = data.testimonials;
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
   const showNextTestimonial = () => {
@@ -62,7 +40,7 @@ const TestimonialSlider = () => {
             }`}
           >
             <div
-              className={`absolute -top-10 -left-10 ${
+              className={`absolute w-[80px] h-[80px] -top-10 -left-10 ${
                 index !== currentTestimonial ? "hidden" : "block"
               }`}
             >
@@ -71,7 +49,7 @@ const TestimonialSlider = () => {
                 alt="avatar"
                 width={80}
                 height={80}
-                className="rounded-full"
+                className="rounded-md object-cover"
               />
             </div>
             <div className="rounded-md shadow-xl bg-white p-6 w-[300px]  lg:max-w-[504px]">
