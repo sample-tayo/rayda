@@ -1,0 +1,44 @@
+{
+  "services": [
+    {
+      "title": "Calculated Weather",
+      "description": "Built Wicket longer admire do barton vanity itself do in it.",
+      "imgSrc": "/assets/icons/calculated-weather.png"
+    },
+    {
+      "title": "Best Flights",
+      "description": "Engrossed listening. Park gate sell they west hard for it.",
+      "imgSrc": "/assets//icons/best-flights.png"
+    },
+    {
+      "title": "Local Events",
+      "description": "Barton vanity itself do in it. Preferred to men, it engrossed listening.",
+      "imgSrc": "/assets/icons/local-events.png"
+    },
+    {
+      "title": "Customization",
+      "description": "We deliver outsourced aviation services for military customers.",
+      "imgSrc": "/assets/icons/customization.png"
+    }
+  ],
+  "locations": [
+    {
+      "imageSrc": "/assets/dest-1.png",
+      "name": "Rome, Italy",
+      "cost": "$5.42k",
+      "duration": "10 Days Trip"
+    },
+    {
+      "imageSrc": "/assets/dest-2.png",
+      "name": "London, UK",
+      "cost": "$4.2k",
+      "duration": "12 Days Trip"
+    },
+    {
+      "imageSrc": "/assets/dest-3.png",
+      "name": "Full Europe",
+      "cost": "$15k",
+      "duration": "28 Days Trip"
+    }
+  ]
+}
