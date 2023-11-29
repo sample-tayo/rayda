@@ -5,10 +5,11 @@ import Steps from "./components/home/steps";
 import TestimonialCard from "./components/testimonialCard";
 import SliderCarousel from "./components/home/Slider";
 import NewsLetter from "./components/home/newsletter";
+import PageWrapper from "./PageWrapper";
 
 export default function Home() {
   return (
-    <div className="lg:max-w-[1442px]">
+    <PageWrapper>
       <Hero />
       <Services />
       <Location />
@@ -28,6 +29,6 @@ export default function Home() {
 
       <SliderCarousel />
       <NewsLetter />
-    </div>
+    </PageWrapper>
   );
 }

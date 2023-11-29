@@ -23,6 +23,7 @@ const TestimonialSlider = () => {
     }, 5000);
 
     return () => clearInterval(intervalId);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

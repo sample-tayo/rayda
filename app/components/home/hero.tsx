@@ -1,5 +1,28 @@
+"use client";
 import Image from "next/image";
+import { motion } from "framer-motion";
 function Hero() {
+  const variants = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.3,
+      },
+    },
+  };
+
+  const images = {
+    hidden: {
+      opacity: 0,
+      x: 30,
+    },
+    show: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 1 },
+    },
+  };
   return (
     <main className="flex flex-col-reverse lg:flex-row items-center pt-16 lg:pt-10 pb-20 px-4 bg-primary  lg:pl-32">
       <section className="flex-1">
@@ -22,10 +45,10 @@ function Hero() {
         </p>
 
         <div className="flex mt-8 gap-5">
-          <button className="h-[60px] w-[170px] rounded-md bg-accent1 text-white">
+          <button className="h-[60px] hover:opacity-70 w-[170px] rounded-md bg-accent1 text-white">
             Find out more
           </button>
-          <button className="flex h-[60px] w-[170px] items-center gap-5">
+          <button className="flex h-[60px] w-[170px] hover:opacity-70 items-center gap-5">
             <div className="bg-success p-4 rounded-full">
               <Image
                 src="/assets/icons/play.png"
@@ -39,29 +62,37 @@ function Hero() {
         </div>
       </section>
 
-      <section className="lg:flex-1 lg:block hidden pt-8 relative">
-        <Image
+      <motion.div
+        variants={variants}
+        initial="hidden"
+        animate="show"
+        className="lg:flex-1 lg:block hidden pt-8 relative"
+      >
+        <motion.img
           src="/assets/banner.png"
           alt="Banner image"
           width={791}
           height={528}
+          variants={images}
         />
-        <Image
+        <motion.img
           src="/assets/plane.png"
           alt="Banner image"
           width={167}
           height={154}
           className="absolute top-0 lg:top-[10%] lg:left-[15%]"
+          variants={images}
         />
 
-        <Image
+        <motion.img
           src="/assets/plane.png"
           alt="Banner image"
           width={167}
           height={154}
           className="absolute rotate-12 w-32 lg:block hidden -top-[10%] lg:-top-24 right-20"
+          variants={images}
         />
-      </section>
+      </motion.div>
     </main>
   );
 }

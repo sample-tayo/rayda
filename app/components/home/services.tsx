@@ -18,7 +18,7 @@ const Services = () => {
         height={166}
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:px-20 mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:px-20 mt-20">
         {data.services.map((service, index) => (
           <ServiceCard key={index} {...service} />
         ))}

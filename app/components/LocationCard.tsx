@@ -14,12 +14,13 @@ const LocationCard: React.FC<LocationCardProps> = ({
   duration,
 }) => {
   return (
-    <div className="relative max-w-[315px]  shadow-lg">
+    <div className="relative max-w-[315px]   shadow-lg">
       <Image
         src={imageSrc}
         alt={`Image of ${location}`}
         width={314}
         height={457}
+        className="hover:opacity-75"
       />
       <div className="absolute w-full p-4 rounded-b-2xl capitalize bottom-0 font-normal text-base bg-white text-accent3">
         <p className="flex items-center justify-between">
