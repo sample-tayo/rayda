@@ -27,7 +27,7 @@ const TestimonialSlider = () => {
   }, []);
 
   return (
-    <div className="relative px-4 flex lg:gap-4 h-[450px] items-center max-w-full lg:max-w-[550px]">
+    <div className="relative px-4 flex lg:gap-4 h-[250px] items-center max-w-full lg:max-w-[550px]">
       <div className="testimonial-card-container bg-white">
         {testimonials.map((testimonial, index) => (
           <div
