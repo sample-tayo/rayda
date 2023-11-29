@@ -6,7 +6,7 @@ interface ServiceCardProps {
   description: string;
   imgSrc: string;
 }
-
+// Define the properties of the ServiceCard component
 const ServiceCard: React.FC<ServiceCardProps> = ({
   title,
   description,

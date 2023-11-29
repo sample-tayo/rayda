@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { poppins, customFont } from "./fonts";
-import Header from "./components/navbar/navbar";
-import Footer from "./components/footer/footer";
+import Header from "./components/navbar";
+import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   title: "MKS",

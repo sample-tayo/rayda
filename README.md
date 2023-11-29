@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Travel Agency Landing Page
+
+![Travel Agency Landing Page ](./public/image.png)
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository: `git clone https://github.com/sample-tayo/rayda.git`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technology Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Framework: [Next.js](https://nextjs.org/) - v14.0.3
+- Animation: [Framer Motion](https://www.npmjs.com/package/framer-motion) - v10.16.5
+- Styling: Tailwind CSS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Framer Motion](https://www.npmjs.com/package/framer-motion) - v10.16.5
+- [Next.js](https://nextjs.org/) - v14.0.3
+- [React](https://reactjs.org/) - v18
+- [React DOM](https://reactjs.org/docs/react-dom.html) - v18
+- [React Icons](https://react-icons.github.io/react-icons/) - v4.12.0
+- [React Infinite Logo Slider](https://www.npmjs.com/package/react-infinite-logo-slider) - v1.0.13
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- MKS Logo
+- Navigation Links (Destinations, Hotels, Flights, Bookings, Log In, Signup, EN)
+- Tagline: "BEST DESTINATION AROUND THE WORLD - Travel, enjoy, and live a new and full life."
+- Services
+  - Calculated Weather
+  - Best Flights
+  - Local Events
+  - Customization
+- Top Selling Destinations
+- Easy and Fast Booking Process
+- Testimonials
+  - Emily Adams from Lahore, Pakistan
+  - Daniel Johnson from Lagos, Nigeria
+  - Olivia Williams from Melbourne, Australia
+- Subscription Section
+- Footer with Company Information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Folder Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+project-root/
+|-- .git/ # Git repository
+|-- node_modules/ # Node.js modules
+|-- public/ # Public assets (images, fonts, etc.)
+| |-- assets/
+| |-- avatar-1.jpg
+| |-- avatar-2.jpg
+| |-- icons/
+| |-- google-play.svg
+| |-- app-store.svg
+|-- src/ # Source code
+| |-- components/ # React components
+| |-- Footer/
+| |-- Footer.js
+| |-- pages/ # Next.js pages
+| |-- index.js
+| |-- styles/ # CSS or styling files
+| |-- tailwind.css
+|-- .gitignore # Git ignore file
+|-- next.config.js # Next.js configuration file
+|-- package.json # Project dependencies and scripts
+|-- README.md # Project README file
+|-- tailwind.config.js # Tailwind CSS configuration file
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+All rights reserved@mksstudios

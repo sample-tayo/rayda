@@ -48,13 +48,13 @@ const TestimonialSlider = () => {
               <Image
                 src={testimonial.src}
                 alt="avatar"
-                width={80}
-                height={80}
+                width={64}
+                height={64}
                 className="rounded-md object-cover"
               />
             </div>
-            <div className="rounded-md shadow-xl bg-white p-6 w-[300px]  lg:max-w-[504px]">
-              <p className="leading-5">{testimonial.quote}</p>
+            <div className="rounded-md shadow-xl text-sm bg-white p-6 w-[300px]  lg:max-w-[504px]">
+              <p className=" ">{testimonial.quote}</p>
               <p className="mt-8">{testimonial.author}</p>
               <p className="text-black">{testimonial.location}</p>
             </div>

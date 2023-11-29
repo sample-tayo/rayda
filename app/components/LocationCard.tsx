@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+// Define the props for the LocationCard component
 interface LocationCardProps {
   imageSrc: string;
   location: string;
@@ -7,6 +7,7 @@ interface LocationCardProps {
   duration: string;
 }
 
+// Extract the properties from the props object
 const LocationCard: React.FC<LocationCardProps> = ({
   imageSrc,
   location,

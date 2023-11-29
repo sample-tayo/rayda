@@ -29,7 +29,7 @@ const NewsLetter = () => {
         <input
           type="email"
           placeholder="Your email"
-          className="p-3 rounded-md w-full lg:w-96 text-accent3 z-50"
+          className="p-3 rounded-md w-full lg:w-96 text-accent3 z-[5]"
         />
         <button
           type="submit"

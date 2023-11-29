@@ -43,22 +43,22 @@
   ],
   "testimonials": [
     {
-      "quote": "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
-      "author": "Mike Taylor",
+      "quote": "Embarking on a journey to explore diverse cultures and landscapes. It's more than travel; it's a celebration of life's rich tapestry.",
+      "author": "Emily Adams",
       "location": "Lahore, Pakistan",
-      "src": "/assets/avatar-1.jpg"
+      "src": "/assets/avatar-1.png"
     },
     {
-      "quote": "Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
-      "author": "Mike Taylor",
+      "quote": "Chasing sunsets, creating memories. Traveling is a canvas, and each destination paints a unique story.",
+      "author": "Daniel Johnson",
       "location": "Lagos, Nigeria",
-      "src": "/assets/avatar-2.jpg"
+      "src": "/assets/avatar-2.png"
     },
     {
-      "quote": "talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
-      "author": "Mike Taylor",
+      "quote": "Wandering through the wonders of the world, savoring moments that become timeless tales.",
+      "author": "Olivia Williams",
       "location": "Melbourne, Australia",
-      "src": "/assets/avatar-2.jpg"
+      "src": "/assets/avatar-2.png"
     }
   ]
 }
